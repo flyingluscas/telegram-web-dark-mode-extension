@@ -1,0 +1,12 @@
+{
+  "name": "Telegram Web Dark Mode",
+  "version": "0.1.0",
+  "description": "Telegram Web dark mode theme!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://web.telegram.org/*"],
+      "css": ["src/themes/darkmode.css"]
+    }
+  ]
+}
