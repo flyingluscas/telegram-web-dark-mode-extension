@@ -1,0 +1,42 @@
+html {
+  background-color: #242424 !important;
+}
+
+.im_page_wrap {
+  background-color: #000000 !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.im_history_col_wrap {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.im_dialogs_col_wrap {
+  background-color: #121212;
+  border-right-color: #121212 !important;
+}
+
+.im_dialogs_col_wrap .im_dialog_peer {
+  color: #808080 !important;
+}
+
+.im_dialogs_col_wrap .im_dialog_wrap.active .im_dialog_peer {
+  color: #ffffff !important;
+}
+
+.im_dialogs_scrollable_wrap a.im_dialog:hover, .im_dialogs_scrollable_wrap a.im_dialog_selected {
+  background-color: #242424 !important;
+}
+
+.im_dialogs_scrollable_wrap .active a.im_dialog {
+  background-color: #373737 !important;
+}
+
+.im_record_bg,
+a.composer_emoji_btn:hover {
+  background-color: transparent !important;
+}
